@@ -29,3 +29,20 @@ public:
  c=15;
  }
 };
+class GrandChild : public Child
+{
+public:
+ void funGrandChild()
+ {
+ //a=10;
+ //b=5;
+ //c=20;
+ }
+};
+int main()
+{
+ // Child c;
+ //c.a=10;
+ //c.b=5;
+ //c.c=20;
+}
