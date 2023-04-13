@@ -10,3 +10,13 @@ int main(){
         if( b!=0){
             cout<<"res :"<< a / b <<endl;
         }
+         else {
+            throw b;
+        }
+    }
+    catch(int x)
+    {
+        cout <<"caught"<< "b:" << x <<endl;
+    }
+    
+}
