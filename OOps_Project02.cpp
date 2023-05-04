@@ -43,3 +43,21 @@ class Employee{
     }
 };
 
+int main(){
+    Employee employee1 = Employee("Suhas" , "CEO" , 11);
+    employee1.Intro();
+
+    Employee employee2 = Employee("jhon" , "MD" , 85);
+    employee2.Intro();
+
+    employee1.setAge(11);
+    employee1.setName("qwe");
+    cout<<employee1.getName() << "is" <<employee1.getAge() <<"year";
+    // Employee employee2;
+    // employee2.Name = "ram";
+    // employee2.Company = "TATA";
+    // employee2.Age= 88;
+    // employee2.Intro()
+    
+
+    }
