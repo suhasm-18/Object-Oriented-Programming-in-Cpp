@@ -68,4 +68,17 @@ class developer:public Employee {           //Polymorphism
         cout<<Name <<"writeing code"<<endl;
     }
 };
+int main() {
+    Employee employee = Employee("Suhas" , "Tata" , 21);
+    //employee.introduceyourself();
 
+    Employee employee2 = Employee("john" , "TCS" , 35);
+
+    // employee.Askforpromotion();
+    // employee2.Askforpromotion();
+    // employee2.introduceyourself();
+
+    //  employee.SetName("Ravan");
+    //  employee.SetAge(15);
+    //  cout << employee.GetName() << "  is  " << employee.GetAge() <<endl;
+  
